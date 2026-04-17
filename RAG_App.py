@@ -37,7 +37,7 @@ if "chat_history" not in st.session_state:
 with st.sidebar:
     st.header("Upload Documents")
     uploaded_files = st.file_uploader(
-        "Upload your PDF documents", type="docx", accept_multiple_files=True
+        "Upload your PDF documents", type="pdf", accept_multiple_files=True
     )
 
     if st.button("Process Documents"):
