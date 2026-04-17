@@ -75,7 +75,7 @@ with st.sidebar:
 st.header("Chat with your Documents")
 
 llm = ChatGroq(
-    groq_api_key=GROQ_API_KEY,
+    groq_api_key=groq_api_key,
     model_name="llama-3.3-70b-versatile"
 )
 
